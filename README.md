@@ -1,3 +1,3 @@
 ## A simple pomodoro
 
-![pomodoroui](pomodor.png)
+![pomodoroui](pomodoro.png)
