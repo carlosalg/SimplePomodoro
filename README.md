@@ -1,2 +1,2 @@
 ## A simple pomodoro
-![ui](./pomodor.png)
+![ui](SimplePomodoro/pomodor.png)
