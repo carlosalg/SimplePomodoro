@@ -65,3 +65,17 @@
 35	40	1715644862808810455	/home/carlosalg/Qt_projects/SimplePomodoro/build/Desktop_Qt_6_7_0-Debug/meta_types/qt6appsimplepomodoro_debug_metatypes.json	30fcb5035ffa7f21
 41	2405	1715644862812143736	CMakeFiles/appSimplePomodoro.dir/pomodorotimer.cpp.o	9839073a2925cbae
 2405	2693	1715644865175439996	appSimplePomodoro	2689f8ca994527e6
+7	25	1715647127860797120	appSimplePomodoro_autogen/timestamp	b5f71d536502c704
+7	25	1715647127860797120	appSimplePomodoro_autogen/mocs_compilation.cpp	b5f71d536502c704
+7	25	1715647127860797120	/home/carlosalg/Qt_projects/SimplePomodoro/build/Desktop_Qt_6_7_0-Debug/appSimplePomodoro_autogen/timestamp	b5f71d536502c704
+7	25	1715647127860797120	/home/carlosalg/Qt_projects/SimplePomodoro/build/Desktop_Qt_6_7_0-Debug/appSimplePomodoro_autogen/mocs_compilation.cpp	b5f71d536502c704
+25	30	1715647127880796809	meta_types/appSimplePomodoro_json_file_list.txt	e6f4f69d6118b2c6
+25	30	1715647127880796809	meta_types/appSimplePomodoro_json_file_list.txt.timestamp	e6f4f69d6118b2c6
+25	30	1715647127880796809	/home/carlosalg/Qt_projects/SimplePomodoro/build/Desktop_Qt_6_7_0-Debug/meta_types/appSimplePomodoro_json_file_list.txt	e6f4f69d6118b2c6
+25	30	1715647127880796809	/home/carlosalg/Qt_projects/SimplePomodoro/build/Desktop_Qt_6_7_0-Debug/meta_types/appSimplePomodoro_json_file_list.txt.timestamp	e6f4f69d6118b2c6
+30	36	1715647127880796809	meta_types/qt6appsimplepomodoro_debug_metatypes.json.gen	30fcb5035ffa7f21
+30	36	1715647127880796809	meta_types/qt6appsimplepomodoro_debug_metatypes.json	30fcb5035ffa7f21
+30	36	1715647127880796809	/home/carlosalg/Qt_projects/SimplePomodoro/build/Desktop_Qt_6_7_0-Debug/meta_types/qt6appsimplepomodoro_debug_metatypes.json.gen	30fcb5035ffa7f21
+30	36	1715647127880796809	/home/carlosalg/Qt_projects/SimplePomodoro/build/Desktop_Qt_6_7_0-Debug/meta_types/qt6appsimplepomodoro_debug_metatypes.json	30fcb5035ffa7f21
+36	2668	1715647127887463371	CMakeFiles/appSimplePomodoro.dir/pomodorotimer.cpp.o	9839073a2925cbae
+2668	3048	1715647130520755648	appSimplePomodoro	2689f8ca994527e6

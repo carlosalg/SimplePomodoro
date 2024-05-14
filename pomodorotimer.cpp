@@ -32,6 +32,7 @@ void PomodoroTimer::start()
 void PomodoroTimer::stop()
 {
     setPlayPause(false);
+    exit(0);
 }
 
 void PomodoroTimer::leftTime()
