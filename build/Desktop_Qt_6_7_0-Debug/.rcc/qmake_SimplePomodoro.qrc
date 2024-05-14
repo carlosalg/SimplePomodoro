@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/SimplePomodoro">
+    <file alias="qmldir">/home/carlosalg/Qt_projects/SimplePomodoro/build/Desktop_Qt_6_7_0-Debug/SimplePomodoro/qmldir</file>
+  </qresource>
+</RCC>
+

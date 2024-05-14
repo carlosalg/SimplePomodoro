@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f4107f434c8235600cb8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SimplePomodoro",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-90a8852e6d758562d829.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-78f6104c2650da163dab.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-bcbca45662256285a252.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-12d7787cfc071b3c79db.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimplePomodoro::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimplePomodoro-Debug-bef15bb509a945f5137b.json",
+					"name" : "appSimplePomodoro",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimplePomodoro_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimplePomodoro_autogen-Debug-3d2b56d0304a0df304dd.json",
+					"name" : "appSimplePomodoro_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimplePomodoro_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimplePomodoro_autogen_timestamp_deps-Debug-df9d344a989f80fb91ee.json",
+					"name" : "appSimplePomodoro_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimplePomodoro_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimplePomodoro_qmlimportscan-Debug-653723abfaffa6edccd9.json",
+					"name" : "appSimplePomodoro_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimplePomodoro_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimplePomodoro_qmllint-Debug-d9f61e98e9d744d73be8.json",
+					"name" : "appSimplePomodoro_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimplePomodoro_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimplePomodoro_qmllint_json-Debug-267961f9a6e0307f72ce.json",
+					"name" : "appSimplePomodoro_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimplePomodoro_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimplePomodoro_qmllint_module-Debug-6b6c3857446c1f3313b9.json",
+					"name" : "appSimplePomodoro_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimplePomodoro_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimplePomodoro_qmltyperegistration-Debug-856a1ca763651e6fb7fc.json",
+					"name" : "appSimplePomodoro_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimplePomodoro_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimplePomodoro_tooling-Debug-762f8f8a3b357d316d5d.json",
+					"name" : "appSimplePomodoro_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/carlosalg/Qt_projects/SimplePomodoro/build/Desktop_Qt_6_7_0-Debug",
+		"source" : "/home/carlosalg/Qt_projects/SimplePomodoro"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

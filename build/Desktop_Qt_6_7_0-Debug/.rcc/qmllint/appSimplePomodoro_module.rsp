@@ -1,0 +1,10 @@
+-I
+/home/carlosalg/Qt_projects/SimplePomodoro/build/Desktop_Qt_6_7_0-Debug
+-I
+/home/carlosalg/Qt/6.7.0/gcc_64/./qml
+--resource
+/home/carlosalg/Qt_projects/SimplePomodoro/build/Desktop_Qt_6_7_0-Debug/.rcc/qmake_SimplePomodoro.qrc
+--resource
+/home/carlosalg/Qt_projects/SimplePomodoro/build/Desktop_Qt_6_7_0-Debug/.rcc/appSimplePomodoro_raw_qml_0.qrc
+--module
+SimplePomodoro

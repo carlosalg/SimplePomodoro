@@ -1,0 +1,14 @@
+-rootPath
+/home/carlosalg/Qt_projects/SimplePomodoro
+-cmake-output
+-output-file
+/home/carlosalg/Qt_projects/SimplePomodoro/build/Desktop_Qt_6_7_0-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appSimplePomodoro.cmake
+-importPath
+/home/carlosalg/Qt_projects/SimplePomodoro/build/Desktop_Qt_6_7_0-Debug/SimplePomodoro
+-importPath
+/home/carlosalg/Qt_projects/SimplePomodoro/build/Desktop_Qt_6_7_0-Debug
+-importPath
+/home/carlosalg/Qt/6.7.0/gcc_64/./qml
+-qrcFiles
+/home/carlosalg/Qt_projects/SimplePomodoro/build/Desktop_Qt_6_7_0-Debug/.rcc/qmake_SimplePomodoro.qrc
+/home/carlosalg/Qt_projects/SimplePomodoro/build/Desktop_Qt_6_7_0-Debug/.rcc/appSimplePomodoro_raw_qml_0.qrc

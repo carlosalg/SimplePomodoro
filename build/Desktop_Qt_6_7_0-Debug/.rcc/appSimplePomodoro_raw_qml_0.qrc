@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/SimplePomodoro/">
+    <file alias="Main.qml">/home/carlosalg/Qt_projects/SimplePomodoro/Main.qml</file>
+  </qresource>
+</RCC>
+

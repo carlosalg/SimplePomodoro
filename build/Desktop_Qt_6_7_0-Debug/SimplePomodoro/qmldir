@@ -1,0 +1,5 @@
+module SimplePomodoro
+typeinfo appSimplePomodoro.qmltypes
+prefer :/SimplePomodoro/
+Main 1.0 Main.qml
+
