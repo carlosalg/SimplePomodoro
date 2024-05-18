@@ -9,7 +9,7 @@ Window {
     maximumHeight: minimumHeight
     visible: true
     title: qsTr("Simple Pomodoro")
-    color: "#424949"
+    color: "#118ab2"
 
     PomodoroTimer {
         id: pomodoroTimer
@@ -24,29 +24,36 @@ Window {
         text: "00:00"
         font.pixelSize: 100
     }
+    component UiButtons: Button{
+        property color buttonColor: "#ffffff"
+        anchors.bottom: parent.bottom
+        font.pixelSize: 20
+        background: Rectangle{
+            implicitWidth: 100
+            implicitHeight: 60
+            color: buttonColor
+            border.color: "#000000"
+            border.width: 2
+            radius: 8
+        }
 
-    Button {
+    }
+
+
+    UiButtons {
         text: "Start"
         anchors.left: parent.left
         anchors.leftMargin: 20
-        anchors.bottom: parent.bottom
         anchors.bottomMargin: 20
-
-        width: 100
-        height: 60
-        font.pixelSize: 20
+        buttonColor: "#06d6a0"
         onClicked: pomodoroTimer.start()
     }
-    Button {
+    UiButtons {
         text: "Stop"
         anchors.right: parent.right
         anchors.rightMargin: 20
-        anchors.bottom: parent.bottom
         anchors.bottomMargin: 20
-
-        width: 100
-        height: 60
-        font.pixelSize: 20
+        buttonColor: "#ef476f"
         onClicked: pomodoroTimer.stop()
     }
 

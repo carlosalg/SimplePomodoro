@@ -396,7 +396,7 @@ build .qt_plugins/Qt6_QmlPlugins_Imports_appSimplePomodoro.cmake | ${cmake_ninja
 #############################################
 # Phony custom command for CMakeFiles/appSimplePomodoro_autogen_timestamp_deps
 
-build CMakeFiles/appSimplePomodoro_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/appSimplePomodoro_autogen_timestamp_deps: phony /home/carlosalg/Qt/6.7.0/gcc_64/lib/libQt6Quick.so.6.7.0 /home/carlosalg/Qt/6.7.0/gcc_64/./libexec/moc /home/carlosalg/Qt/6.7.0/gcc_64/lib/libQt6Qml.so.6.7.0
+build CMakeFiles/appSimplePomodoro_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/appSimplePomodoro_autogen_timestamp_deps: phony /home/carlosalg/Qt/6.7.0/gcc_64/./libexec/moc /home/carlosalg/Qt/6.7.0/gcc_64/lib/libQt6Qml.so.6.7.0 /home/carlosalg/Qt/6.7.0/gcc_64/lib/libQt6Quick.so.6.7.0
 
 
 #############################################
