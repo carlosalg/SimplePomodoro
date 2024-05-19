@@ -14,6 +14,7 @@ Window {
     PomodoroTimer {
         id: pomodoroTimer
         onTimeUpdate: timeText.text = pomodoroTimer.minutes + ":" + pomodoroTimer.seconds
+        onCycleChanged: counterText.text = pomodoroTimer.cycle
     }
 
     Text{
@@ -24,6 +25,22 @@ Window {
         text: "00:00"
         font.pixelSize: 100
     }
+    Rectangle {
+        width: 70
+        height: 70
+        anchors.margins: 20
+        anchors.top: parent.top
+        anchors.right: parent.right
+        color:"#118ab2"
+        Text{
+            id: counterText
+            text: "0"
+            font.pixelSize: 40
+            anchors.horizontalCenter: parent.horizontalCenter
+        }
+
+    }
+
     component UiButtons: Button{
         property color buttonColor: "#ffffff"
         anchors.bottom: parent.bottom

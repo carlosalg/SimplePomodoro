@@ -40,6 +40,15 @@ Module {
             isReadonly: true
             isFinal: true
         }
+        Property {
+            name: "cycle"
+            type: "int"
+            read: "cycle"
+            notify: "cycleChanged"
+            index: 3
+            isReadonly: true
+            isFinal: true
+        }
         Signal { name: "timeUpdate" }
         Signal { name: "playChanged" }
         Signal {
@@ -52,7 +61,9 @@ Module {
             type: "int"
             Parameter { type: "int" }
         }
+        Signal { name: "cycleChanged" }
         Method { name: "leftTime" }
+        Method { name: "startNewCycles" }
         Method { name: "start" }
         Method { name: "stop" }
     }

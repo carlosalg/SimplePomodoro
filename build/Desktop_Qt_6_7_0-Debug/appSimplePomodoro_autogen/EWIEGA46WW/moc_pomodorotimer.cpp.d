@@ -1,6 +1,7 @@
 /home/carlosalg/Qt_projects/SimplePomodoro/build/Desktop_Qt_6_7_0-Debug/appSimplePomodoro_autogen/EWIEGA46WW/moc_pomodorotimer.cpp: /home/carlosalg/Qt_projects/SimplePomodoro/pomodorotimer.h \
   /home/carlosalg/Qt_projects/SimplePomodoro/build/Desktop_Qt_6_7_0-Debug/appSimplePomodoro_autogen/moc_predefs.h \
   /home/carlosalg/Qt/6.7.0/gcc_64/include/QtCore/QObject \
+  /home/carlosalg/Qt/6.7.0/gcc_64/include/QtCore/QTimer \
   /home/carlosalg/Qt/6.7.0/gcc_64/include/QtCore/q20functional.h \
   /home/carlosalg/Qt/6.7.0/gcc_64/include/QtCore/q20memory.h \
   /home/carlosalg/Qt/6.7.0/gcc_64/include/QtCore/q20type_traits.h \
@@ -14,6 +15,7 @@
   /home/carlosalg/Qt/6.7.0/gcc_64/include/QtCore/qatomic.h \
   /home/carlosalg/Qt/6.7.0/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/carlosalg/Qt/6.7.0/gcc_64/include/QtCore/qbasicatomic.h \
+  /home/carlosalg/Qt/6.7.0/gcc_64/include/QtCore/qbasictimer.h \
   /home/carlosalg/Qt/6.7.0/gcc_64/include/QtCore/qbindingstorage.h \
   /home/carlosalg/Qt/6.7.0/gcc_64/include/QtCore/qbytearray.h \
   /home/carlosalg/Qt/6.7.0/gcc_64/include/QtCore/qbytearrayalgorithms.h \
@@ -101,6 +103,7 @@
   /home/carlosalg/Qt/6.7.0/gcc_64/include/QtCore/qtdeprecationmarkers.h \
   /home/carlosalg/Qt/6.7.0/gcc_64/include/QtCore/qtenvironmentvariables.h \
   /home/carlosalg/Qt/6.7.0/gcc_64/include/QtCore/qtextstream.h \
+  /home/carlosalg/Qt/6.7.0/gcc_64/include/QtCore/qtimer.h \
   /home/carlosalg/Qt/6.7.0/gcc_64/include/QtCore/qtmetamacros.h \
   /home/carlosalg/Qt/6.7.0/gcc_64/include/QtCore/qtnoop.h \
   /home/carlosalg/Qt/6.7.0/gcc_64/include/QtCore/qtpreprocessorsupport.h \

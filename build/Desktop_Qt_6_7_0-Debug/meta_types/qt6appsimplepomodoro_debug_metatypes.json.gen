@@ -52,6 +52,20 @@
                         "stored": true,
                         "type": "int",
                         "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 3,
+                        "name": "cycle",
+                        "notify": "cycleChanged",
+                        "read": "cycle",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
                     }
                 ],
                 "qualifiedClassName": "PomodoroTimer",
@@ -85,12 +99,22 @@
                         ],
                         "name": "secondsChanged",
                         "returnType": "int"
+                    },
+                    {
+                        "access": "public",
+                        "name": "cycleChanged",
+                        "returnType": "void"
                     }
                 ],
                 "slots": [
                     {
                         "access": "public",
                         "name": "leftTime",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "startNewCycles",
                         "returnType": "void"
                     },
                     {

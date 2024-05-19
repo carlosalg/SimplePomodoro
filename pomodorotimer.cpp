@@ -2,13 +2,21 @@
 #include <QTimer>
 
 using namespace std;
-using namespace chrono;
+
 
 PomodoroTimer::PomodoroTimer(QObject *parent)
-    : QObject{parent}
-{}
+    : QObject{parent}, m_timer(new QTimer(this)), m_numberOfCycles(0), m_playPause(false), m_minutes(0), m_seconds(0)
+{
+    connect(m_timer, &QTimer::timeout, this, &PomodoroTimer::leftTime);
+}
 
-
+PomodoroTimer::~PomodoroTimer()
+{
+    if (m_timer) {
+        m_timer->stop();
+        delete m_timer;
+    }
+}
 
 bool PomodoroTimer::play() const
 {
@@ -25,40 +33,60 @@ void PomodoroTimer::setPlayPause(bool newIo)
 
 void PomodoroTimer::start()
 {
-    setPlayPause(true);
-    leftTime();
+    if(!m_playPause){
+        setPlayPause(true);
+        startNewCycles();
+    }
 }
 
 void PomodoroTimer::stop()
 {
-    setPlayPause(false);
+    if(m_playPause){
+        setPlayPause(false);
+        if(m_timer){
+            m_timer->stop();
+        }
+        m_cycle = 0;
+        emit cycleChanged();
+    }
     exit(0);
+}
+
+void PomodoroTimer::startNewCycles()
+{
+    if(m_numberOfCycles >= 4){
+        stop();
+        return;
+    }
+    m_remainingTime = 30;
+
+    m_timer->start(1000);
+    m_cycle = m_numberOfCycles;
+    emit cycleChanged();
 }
 
 void PomodoroTimer::leftTime()
 {
 
     if(!m_playPause){
+       return;
+    }
+
+    if(m_remainingTime <=0){
+        m_minutes = 0;
+        m_seconds = 0;
+        emit timeUpdate();
+        m_timer->stop();
+        m_numberOfCycles++;
+        startNewCycles();
         return;
     }
-    auto starTime = system_clock::now();
-    auto targetTime = starTime + 25min;
 
+    m_remainingTime--;
 
-    QTimer *timer = new QTimer(this);
-    connect(timer, &QTimer::timeout, this, [this, targetTime, starTime, &timer](){
-        auto remaining = std::chrono::duration_cast<std::chrono::seconds>(targetTime - system_clock::now());
-        m_minutes = remaining.count() / 60;
-        m_seconds = remaining.count() % 60;
-        emit timeUpdate();
-
-        if(targetTime <= system_clock::now()){
-            timer->stop();
-            delete timer;
-        }
-    });
-    timer->start(1000);
-
+    m_minutes = m_remainingTime / 60;
+    m_seconds = m_remainingTime % 60;
+    emit timeUpdate();
 
 }
 
@@ -69,9 +97,10 @@ int PomodoroTimer::minutes() const
 
 int PomodoroTimer::seconds() const
 {
-    if (m_seconds < 10){
-        return m_seconds + 48;
-    } else {
-        return m_seconds;
-    }
+    return m_seconds;
+}
+
+int PomodoroTimer::cycle() const
+{
+    return m_cycle;
 }
