@@ -2,14 +2,54 @@ import QtQuick
 import QtQuick.Controls
 import SimplePomodoro
 
+
+
 Window {
+    id: root
+    flags: Qt.FramelessWindowHint
     minimumWidth: 640
     minimumHeight: 480
     maximumWidth: minimumWidth
     maximumHeight: minimumHeight
     visible: true
     title: qsTr("Simple Pomodoro")
-    color: "#118ab2"
+    color: "transparent"
+
+    property bool dragging: false
+    property var startMousePosition: Qt.point(0,0)
+    property var startWindowPosition: Qt.point(0,0)
+
+    Rectangle{
+        color: "#118ab2"
+        radius: 20
+        anchors.fill: parent
+    }
+
+    MouseArea{
+        id: mouseArea
+        anchors.fill: parent
+        visible: true
+        cursorShape: Qt.OpenHandCursor
+
+        onPressed: {
+            root.dragging = true
+            root.startMousePosition = Qt.point(mouseX, mouseY)
+            root.startWindowPosition = Qt.point(root.x, root.y)
+        }
+
+        onPositionChanged: {
+            if(root.dragging) {
+                var deltaX = mouseX - root.startMousePosition.x
+                var deltaY = mouseY - root.startMousePosition.y
+                root.x = root.startWindowPosition.x + deltaX
+                root.y = root.startWindowPosition.y + deltaY
+            }
+        }
+
+        onReleased: {
+            root.dragging = false
+        }
+    }
 
     PomodoroTimer {
         id: pomodoroTimer
